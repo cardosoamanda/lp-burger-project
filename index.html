@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Modak&family=Open+Sans:wght@300;400;700&family=Roboto:wght@100;300;400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <title>LP - PROJECT</title>
+</head>
+
+<body>
+    <div class="b-menu-overlay b-toggle-menu"></div>
+    <header class="b-topbar row b-d-none">
+        <div class="col-sm-10 offset-sm-1">
+            <div class="b-logo"><img src="img/logo.png" alt="logo burger diaz">
+            </div>
+            <ol class="b-menu">
+                <li class="b-first"><a href="#">Home</a></li>
+                <li><a href="#">New Menu</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Main Course</a></li>
+            </ol>
+            <form id="search" role="search" class="b-search b-none b-block" autocomplete="off">
+                <input name="" type="text" placeholder="Search..." autocomplete="off" class="b-title-small">
+                <button class="b-search-button"><img src="img/search-icon.png" alt="" /></button>
+            </form>
+
+            <img src="img/button.png" class="b-menu-img" />
+        </div>
+
+    </header>
+
+    <button class="b-btn-menu-mob b-toggle-menu">
+        <img src="img/button.png" alt="menu tag">
+    </button>
+
+    <nav class="b-menu-mob b-menu-is-closed">
+        <a href="#" class="b-title-small">Home</a>
+        <a href="#" class="b-title-small">New Menu</a>
+        <a href="#" class="b-title-small">About Us</a>
+        <a href="#" class="b-title-small">Main Course</a>
+        <input type="text" placeholder="Search" class="b-title-small b-search-mob">
+        <button class="b-search-button-mob"><img src="img/search-icon.png" alt="" /></button>
+    </nav>
+
+    <div class="container-fluid">
+
+        <div class="row b-section">
+            <div class="col-sm-10 col-md-10 col-lg-4 offset-sm-1 offset-md-1 offset-lg-1 b-first-section order-1">
+                <h3>Open today for great food</h3>
+                <h1>You Can Make
+                    <Br>Your Own <span>Burger</span>
+                </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore</p>
+                <button class="b-button" href="#">get started</button>
+            </div>
+
+            <div class="col-sm-10 col-md-10 col-lg-6 offset-sm-1 offset-md-1 b-second-section order-2">
+                <div id='b-imgContainer' class="b-img-container">
+                    <img src="/img/burger-4.png" data-aos-off="300">
+                    <img src="/img/burger-6.png">
+                </div>
+                <h1>Spicy Beef <span>Burger</span></h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 order-1">
+                <div class="row b-about-section">
+                    <div class="d-none d-sm-none d-md-block col-md-2 b-dash"></div>
+                    <div class="col-sm-10">
+                        <h1>About Us</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            <br>sed do eiusmod tempor incididunt ut labore et dolore
+                            <br>magna aliqua. mpor incididunt utmpor
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-5 order-2">
+                <ol class="b-social-menu">
+                    <li class="b-promo"><a href="#">Don't Miss Our Promo On</a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a></li>
+                </ol>
+            </div>
+
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="index.js"></script>
+</body>
+
+</html>
